@@ -1,2 +1,10 @@
-Copy of the Typesafe getting started tutorial for Typesafe 1.1 which calculates Pi using the “embarrassingly parallel” algorithm see
+Copy of the Typesafe getting started tutorial for Typesafe 1.1 which calculates Pi using Leibniz formula for Pi and the “embarrassingly parallel” algorithm see
 http://typesafe.com/resources/getting-started/tutorials/getting-started-first-scala.html for more detals (hopefully this won't change much)
+and http://en.wikipedia.org/wiki/Leibniz_formula_for_pi
+
+You will need SBT 0.7.7 to run this:
+
+sbt
+update
+run
+
