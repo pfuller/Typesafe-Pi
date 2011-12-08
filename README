@@ -1,10 +1,46 @@
-Copy of the Typesafe getting started tutorial for Typesafe 1.1 which calculates Pi using Leibniz formula for Pi and the “embarrassingly parallel” algorithm see
-http://typesafe.com/resources/getting-started/tutorials/getting-started-first-scala.html for more detals (hopefully this won't change much)
-and http://en.wikipedia.org/wiki/Leibniz_formula_for_pi
+Copy of the Typesafe getting started tutorial for Typesafe 1.1 which calculates Pi using Leibniz formula for Pi and the “embarrassingly parallel” algorithm see:
+http://typesafe.com/resources/getting-started/tutorials/getting-started-first-scala.html and http://en.wikipedia.org/wiki/Leibniz_formula_for_pi
 
-You will need SBT 0.7.7 to run this:
+You will need SBT 0.7.7 to run this see https://github.com/harrah/xsbt/wiki/Getting-Started-Setup
+
+run the following in the project after cloning it:
 
 sbt
 update
 run
+
+[info] Building project Typesafe-Pi 1.0 against Scala 2.9.1
+[info]    using TutorialOneProject with sbt 0.7.7 and Scala 2.7.7
+> update
+[info]
+[info] == update ==
+[info] :: retrieving :: Scala Code Hackers Inc#typesafe-pi_2.9.1 [sync]
+[info]  confs: [compile, runtime, test, provided, system, optional, sources, javadoc]
+[info]  0 artifacts copied, 1 already retrieved (0kB/63ms)
+[info] == update ==
+[success] Successful.
+[info]
+[info] Total time: 2 s, completed 08-Dec-2011 13:18:15
+> run
+[info]
+[info] == compile ==
+[info]   Source analysis: 0 new/modified, 0 indirectly invalidated, 0 removed.
+[info] Compiling main sources...
+[info] Nothing to compile.
+[info]   Post-analysis: 18 classes.
+[info] == compile ==
+[info]
+[info] == copy-resources ==
+[info] == copy-resources ==
+[info]
+[info] == run ==
+[info] Running akka.tutorial.first.scala.Pi
+
+        Pi estimate:            3.1415926435897887
+        Calculation time:       3461 millis
+[info] == run ==
+[success] Successful.
+[info]
+[info] Total time: 6 s, completed 08-Dec-2011 13:18:21
+>
 
