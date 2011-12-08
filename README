@@ -1,0 +1,2 @@
+Copy of the Typesafe getting started tutorial for Typesafe 1.1 which calculates Pi using the “embarrassingly parallel” algorithm see
+http://typesafe.com/resources/getting-started/tutorials/getting-started-first-scala.html for more detals (hopefully this won't change much)
